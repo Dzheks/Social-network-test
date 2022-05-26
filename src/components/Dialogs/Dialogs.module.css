@@ -2,7 +2,7 @@
     display: grid;
     grid-template-columns: 2fr 10fr;
     padding: 5px 9px 5px 9px ;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(255, 115, 0);
     border-radius: 1rem;
 
 }
@@ -11,18 +11,21 @@
     font-size: 20px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     padding: 5px 9px 5px 9px ;
-}
-.dialogsItems .active {
     
+}
+.dialogsItems :focus {
     color: gold;
+
 }
 .messages {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 20px;
     padding: 5px 9px 5px 9px ;
+    color: black;
 }
 
 
 .messages .message {
 padding: 10px;
+
 }
