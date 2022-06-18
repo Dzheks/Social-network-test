@@ -18,7 +18,7 @@ const Message = (props) => {
           <textarea ref={newMessagesElements}></textarea>
         </div>
         <div>
-          <button onClick={addPost}>Add Post</button>
+          <button onClick={addPost}>Add fPost</button>
         </div>
       </div>
     </div> 
