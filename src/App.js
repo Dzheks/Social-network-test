@@ -5,7 +5,7 @@ import Navbar from './components/Navbar/Navbar';
 import Dialogs from './components/Dialogs/Dialogs';
 import Profile from './components/Profile/Profile';
 import News from './components/News/News';
-import {BrowserRouter, Route, Routes} from 'react-router-dom';
+import {Route, Routes} from 'react-router-dom';
 
 
 
@@ -13,7 +13,7 @@ const App = (props) => {
 
  
   return (
-    <BrowserRouter> 
+  
     <div className="app-wrapper">
       <Header />
       <Navbar />
@@ -25,7 +25,7 @@ const App = (props) => {
 			</Routes>
       </div>
     </div>
-    </BrowserRouter> 
+    
     );
 }
 
